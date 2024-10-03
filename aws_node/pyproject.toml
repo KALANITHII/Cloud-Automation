@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aws-infra-automation"
+version = "0.1.0"
+description = ""
+authors = ["Arunprakaash <62831206+Arunprakaash@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11, <3.13"
+langgraph = "^0.0.60"
+langchain-openai = "^0.1.8"
+python-dotenv = "^1.0.1"
+ipython = "^8.25.0"
+langchain = "^0.2.4"
+fastapi = "^0.111.0"
+boto3 = "^1.34.128"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
